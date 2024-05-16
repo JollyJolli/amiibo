@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #444;
+  color: #fff;
+}
+
+#amiiboCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.amiiboCard {
+  width: 250px;
+  background-color: #222;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.amiiboCard h2 {
+  margin-top: 0;
+}
+
+.amiiboCard p {
+  margin: 5px 0;
+}
+
+.amiiboCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.amiiboCard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.amiiboCard ul li {
+  margin-left: 20px;
+}
+
